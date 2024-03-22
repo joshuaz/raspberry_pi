@@ -1,3 +1,8 @@
+# using circuit python
+# pip install adafruit-blinka
+# sudo pip3 install adafruit_circuitpython-dht
+# do not directly pip install board directly (the board module is different than what we need in circuit python) (board already present in adafruit-blinka)
+# install 
 import time
 import board
 import digitalio
