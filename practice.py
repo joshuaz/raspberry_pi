@@ -56,7 +56,7 @@ while attempts < max_attempts:
         # Errors happen fairly often, DHT's are hard to read, just keep going
         print(error.args[0])
     except Exception as e:
-        print("Unexpected error:" e)
+        print("Unexpected error:", e)
     attempts += 1
     time.sleep(2.0)
 
